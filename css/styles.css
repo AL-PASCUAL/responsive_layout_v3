@@ -1,185 +1,211 @@
-/*
-  If you get stuck, feel free to watch the follow-up videos where I'll show you one solution
-*/
+
 
 * {
 	box-sizing: border-box;
-}
-
-body {
-	font-family: sans-serif;
-	line-height: 1.6;
-	color: #3a3a3a;
-  background-color: #FAFAFA;
-}
-
-a {
-	text-decoration: none;
-  margin-left: .5em;
   color: #2E2E2E;
 }
 
-.name {
-  margin: 1em 2em 0em 2em;
-font-size: 2em;
+body {
+background-color: #FAFAFA;
 }
 
-
-.name,
-.main-nav {
-  display: inline-block;
+.main-header {
+width: 100%;
+text-align: center;
 }
 
-
-
-
-/* ---- profile---- */
-
-.profile {
-	color: black;
-  margin-top: 2em;
-  margin-bottom: 2em;
-  padding-top: 2em;
-  padding-bottom: 2em;
-  display: inline-block;
-  width: 100%;
-  background-color: #FAFAFA;
-  min-height: 5%;
-}
-
-
-.col1 {
-  width: 40%;
-  margin-top: 1em;
-  margin-left: 10%;
-  float: left;
-}
-
-.pro-p {
-  font-family: 'montserrat', serif;
-  font-size: 1.2em;
-  color: #3acec2;
+header a {
+  text-decoration: none;
+  display: block;
+  margin: .5em 1em;
+  background-color: white;
+  border-radius: 5px;
+  padding: .7em .7em;
 }
 
 .pro-pic {
-  width: 30%;
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 2.5em;
 
-
-}/* ---- profile---- */
-
-/* ---- portfolio---- */
-.wrap {
-background-color: white;
-border: 2em solid #FAFAFA;
-width: 100%;
 }
 
-.portfolio {
-text-align: center;
+
+.pro-p {
+font-family: Marzipan;
 }
 
-.col {
-float: left;
-width: 33.333333%;
-text-align: center;
-padding: 0em 1em;
+
+
+p {
+font-size: 1em;
+font-family: 'montserrat', serif;
+margin: 2em;
+
+}
+
+p, h2 {
+  text-align: center;
+  font-size: 1em;
+
 }
 
 img {
-	max-width: 100%;
+  width: 90%;
+  margin-left: 5%;
 }
 
-p {
-	font-size: .95em;
-	margin-bottom: 1.8em;
+.wrap, .skilldiv {
+  background-image: linear-gradient(white, #FAFAFA, white);
+
 }
 
-h2,
-a {
-	color: #093a58;
+
+.portfolio {
+  padding-top: 2.5em;
+font-size: 1em;
 }
 
-h2 {
-	margin-top: 0;
-}/* ---- portfolio---- */
-
-
-
-/* ---- skills---- */
-.skill {
-  text-align: center;
-}/* ---- skills---- */
-
-
+.skilldiv {
+  padding-top: 2.5em;
+}
 
 /* ---- footer---- */
-footer {
-background-color: #FAFAFA;
-width: 100%;
-}
-
-.contact h2 {
-margin-top: 2em;
-margin-bottom: 2em;
-}
-
-
-.foot-nav{
-border-top: 1px solid black;
-margin-left: 10%;
-margin-right: 10%;
-margin-top: 1em;
-}
 
 .contact {
 text-align: center;
-margin-top: -1em;
+padding-top: 1em;
 }
 
-.foot-name,
-.foot {
-display: inline-block;
-font-weight: bold;
-width: 40%;
+.email {
+  border-bottom: 1px solid grey;
+  padding-bottom: 2em;
 }
 
-.foot {
+footer a{
+background-color: #FAFAFA;
+color: black;
+}
+
+.backtop {
   float: right;
-  margin: 1.5em;
-}/* ---- footer---- */
+}
+
+.foot {
+  display: none;
+}
+
+h4 {
+  display: inline-block;
+  font-family: fira sans;
+}
+
+footer a {
+background-color: inherit;
+color: black;
+margin: 0em;
+padding: 0em .3em;
+text-decoration: none;
+}
+
+.foot-nav {
+  margin: 0em 2em;
+}
+
+footer p {
+  margin: 1em 2em 0em 2em;
+}
 
 
-/* =================================
-  Media Queries
-==================================== */
-
-
-
-@media (min-width: 768px) and (min-width: 1024px){
-
-/* ---- main nav---- */
-.name {
-margin-right: 40%;
-
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 
 /* ---- Media Query ---- */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
 
 body {
   background-color: yellow;
 }
 
 
+nav a {
+  display: inline-block;
+  background-color: inherit;
+  margin: 0em 0em 2em 0em;
+}
+
+.profile {
+  padding-bottom: 2em;
+}
+
+.pro-p {
+margin: 0;
+padding-left: 2em;
+font-size: 1.2em;
+width: 55%;
+}
+
+.pro-pic {
+float: right;
+padding-right: 2em;
+margin: 0;
+width: 40%;
+}
+
+.col {
+width: 50%;
+float: left;
+
+}
+
+.port1 {
+  margin-bottom: 2em;
+}
+
+.skilldiv {
+  background-color: white;
+}
+
+.skill {
+border-top: 1px solid grey;
+margin: 0em 2.5em;
+padding: 2em 0em;
+}
+
+.foot-p {
+padding: 0em 11em 2em 11em;
+  font-family: Marzipan;
+}
+
+.backtop {
+  display: none;
+}
+
+.foot {
+display: inline-block;
+}
+
+footer a {
+background-color: inherit;
+color: black;
+margin: 0em;
+padding: 0em .3em;
+text-decoration: none;
 }
 
 
 
-/* ---- Float clearfix ---- */
+footer nav {
+  float: right;
+}
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+.foot-nav {
+  margin: 0em 2em;
+}
+
+
 }
