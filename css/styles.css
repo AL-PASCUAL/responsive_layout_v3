@@ -127,10 +127,6 @@ footer p {
 /* ---- Media Query ---- */
 @media (min-width: 768px) {
 
-body {
-  background-color: yellow;
-}
-
 
 nav a {
   display: inline-block;
@@ -187,6 +183,7 @@ padding: 0em 11em 2em 11em;
 
 .foot {
 display: inline-block;
+margin-top: 1.33em;
 }
 
 footer a {
@@ -207,5 +204,51 @@ footer nav {
   margin: 0em 2em;
 }
 
+
+}
+
+
+@media (min-width: 1024px) {
+
+.name {
+	float: left;
+	padding: 0px 11.20px;
+}
+
+header h1, nav {
+	display: inline-block;
+}
+
+nav {
+	float: right;
+	margin-top: 21.440px;
+}
+
+header {
+
+	margin: 0em 2em;
+}
+
+.profile {
+	margin-top: 2em;
+}
+.pro-p {
+font-size: 1.75em;
+text-align: left;
+
+}
+
+
+
+.col, .paint {
+width: 33.3333%;
+float: left;
+
+}
+
+.main {
+	border: 2em solid #fafafa;
+	padding: 1em;
+}
 
 }
