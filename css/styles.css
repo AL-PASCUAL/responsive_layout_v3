@@ -6,12 +6,13 @@
 }
 
 body {
-background-color: #FAFAFA;
+	background-color: #ededed;
 }
 
+
 .main-header {
-width: 100%;
-text-align: center;
+	width: 100%;
+	text-align: center;
 }
 
 header a {
@@ -32,15 +33,15 @@ header a {
 
 
 .pro-p {
-font-family: Marzipan;
+	font-family: Marzipan;
 }
 
 
 
 p {
-font-size: 1em;
-font-family: 'montserrat', serif;
-margin: 2em;
+	font-size: 1em;
+	font-family: 'montserrat', serif;
+	margin: 2em;
 
 }
 
@@ -56,14 +57,19 @@ img {
 }
 
 .wrap, .skilldiv {
-  background-image: linear-gradient(white, #FAFAFA, white);
+  background-image: linear-gradient(white, #ededed, white);
 
 }
 
 
 .portfolio {
   padding-top: 2.5em;
-font-size: 1em;
+	font-size: 1em;
+	padding-bottom: 2em;
+}
+
+.skill {
+	padding-bottom: 2em;	
 }
 
 .skilldiv {
@@ -73,8 +79,8 @@ font-size: 1em;
 /* ---- footer---- */
 
 .contact {
-text-align: center;
-padding-top: 1em;
+	text-align: center;
+	padding-top: 1em;
 }
 
 .email {
@@ -83,8 +89,8 @@ padding-top: 1em;
 }
 
 footer a{
-background-color: #FAFAFA;
-color: black;
+	background-color: #FAFAFA;
+	color: black;
 }
 
 .backtop {
@@ -101,11 +107,11 @@ h4 {
 }
 
 footer a {
-background-color: inherit;
-color: black;
-margin: 0em;
-padding: 0em .3em;
-text-decoration: none;
+	background-color: inherit;
+	color: black;
+	margin: 0em;
+	padding: 0em .3em;
+	text-decoration: none;
 }
 
 .foot-nav {
@@ -139,22 +145,22 @@ nav a {
 }
 
 .pro-p {
-margin: 0;
-padding-left: 2em;
-font-size: 1.2em;
-width: 55%;
+	margin: 0;
+	padding-left: 2em;
+	font-size: 1.2em;
+	width: 55%;
 }
 
 .pro-pic {
-float: right;
-padding-right: 2em;
-margin: 0;
-width: 40%;
+	float: right;
+	padding-right: 2em;
+	margin: 0;
+	width: 40%;
 }
 
 .col {
-width: 50%;
-float: left;
+	width: 50%;
+	float: left;
 
 }
 
@@ -167,13 +173,13 @@ float: left;
 }
 
 .skill {
-border-top: 1px solid grey;
-margin: 0em 2.5em;
-padding: 2em 0em;
+	border-top: 1px solid grey;
+	margin: 0em 2.5em;
+	padding: 2em 0em;
 }
 
 .foot-p {
-padding: 0em 11em 2em 11em;
+	padding: 0em 11em 2em 11em;
   font-family: Marzipan;
 }
 
@@ -182,16 +188,16 @@ padding: 0em 11em 2em 11em;
 }
 
 .foot {
-display: inline-block;
-margin-top: 1.33em;
+	display: inline-block;
+	margin-top: 1.33em;
 }
 
 footer a {
-background-color: inherit;
-color: black;
-margin: 0em;
-padding: 0em .3em;
-text-decoration: none;
+	background-color: inherit;
+	color: black;
+	margin: 0em;
+	padding: 0em .3em;
+	text-decoration: none;
 }
 
 
@@ -233,21 +239,22 @@ header {
 	margin-top: 2em;
 }
 .pro-p {
-font-size: 1.75em;
-text-align: left;
+	font-size: 1.75em;
+	text-align: left;
 
 }
 
 
 
 .col, .paint {
-width: 33.3333%;
-float: left;
+	width: 33.3333%;
+	float: left;
 
 }
 
 .main {
-	border: 2em solid #fafafa;
+	margin: 0;
+	border: 2em solid #ededed;
 	padding: 1em;
 }
 
